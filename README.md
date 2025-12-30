@@ -36,9 +36,9 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
 
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_WEBHOOK_SECRET=whsec_...
-STRIPE_PRICE_ID_TIER_A=price_1SVTt3BCno7kJeYyD1vfNvHr
-STRIPE_PRICE_ID_TIER_B=price_1SVTxVBCno7kJeYymDrJAhTg
-STRIPE_PRICE_ID_TIER_C=price_1SVTyQBCno7kJeYyU499Lhx1
+STRIPE_PRICE_ID_TIER_A=
+STRIPE_PRICE_ID_TIER_B=
+STRIPE_PRICE_ID_TIER_C=
 ```
 
 > Tip: `src/lib/env.ts` validates required browser variables and `src/lib/env-server.ts` validates server-only Stripe keys so missing config fails fast during boot.
